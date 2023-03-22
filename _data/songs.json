@@ -1,0 +1,36 @@
+[
+    {
+    "title": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "album": "Wednesday Morning, 3 A.M.",
+    "genres": ["folk", "pop"],
+    "usageCount": 0,
+    "lastUsed": null
+    },
+   {
+     "title": "Killing in the Name",
+    "artist": "Rage Against the Machine",
+    "album": "Rage Against the Machine",
+    "genres": ["rock", "rap"],
+    "usageCount": 3,
+    "lastUsed": null
+    },
+
+   {
+    "title": "Metropolis, Pt. 1",
+    "artist": "Dream Theater",
+    "album": "Images and Words",
+    "genres": ["progressive metal", "progressive rock"],
+    "usageCount": 10,
+    "lastUsed": null
+    },
+
+  {
+    "title": "Erotomania",
+    "artist": "Dream Theater",
+    "album": "Awake",
+    "genres": ["progressive metal", "progressive rock"],
+    "usageCount": 5,
+    "lastUsed": null
+  }
+]
