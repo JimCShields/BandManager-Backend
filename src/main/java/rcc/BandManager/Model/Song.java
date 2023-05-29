@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 import java.util.Date;
+import java.util.UUID;
 
 @Document(collection = "songs")
 @Data
@@ -17,6 +18,7 @@ import java.util.Date;
 public class Song {
     @Id
     private ObjectId id;
+    private String songId = UUID.randomUUID().toString();
     private String title;
     private String artist;
     private String album;

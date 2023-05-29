@@ -18,4 +18,8 @@ public interface SongRepository extends MongoRepository<Song, ObjectId> {
     Optional<List<Song>> findSongByAlbum(String album);
 
     Optional<List<Song>> findSongByGenres(String genres);
+
+    Optional<Song> findSongById(ObjectId id);
+
+    Optional<Song> findSongBySongId(String songId);
 }

@@ -1,22 +1,25 @@
 [
     {
-    "title": "The Sound of Silence",
-    "artist": "Simon & Garfunkel",
-    "album": "Wednesday Morning, 3 A.M.",
-    "genres": ["folk", "pop"],
-    "usageCount": 0,
-    "lastUsed": null
+      "songId": "a9726a62-856f-46ad-ac6a-6e629fa029ab",
+      "title": "The Sound of Silence",
+      "artist": "Simon & Garfunkel",
+      "album": "Wednesday Morning, 3 A.M.",
+      "genres": ["folk", "pop"],
+      "usageCount": 0,
+      "lastUsed": null
     },
    {
+     "songId": "856cf749-3b37-42d2-a588-57b74d6f02ff",
      "title": "Killing in the Name",
-    "artist": "Rage Against the Machine",
-    "album": "Rage Against the Machine",
-    "genres": ["rock", "rap"],
-    "usageCount": 3,
-    "lastUsed": null
-    },
+     "artist": "Rage Against the Machine",
+     "album": "Rage Against the Machine",
+     "genres": ["rock", "rap"],
+     "usageCount": 3,
+     "lastUsed": null
+   },
 
    {
+     "songId": "5f17fa7f-6d44-458f-92ba-c648f10f1add",
     "title": "Metropolis, Pt. 1",
     "artist": "Dream Theater",
     "album": "Images and Words",
@@ -26,11 +29,132 @@
     },
 
   {
+    "songId": "0776e1df-2859-4f82-86eb-ba1b62ab4c2e",
     "title": "Erotomania",
     "artist": "Dream Theater",
     "album": "Awake",
     "genres": ["progressive metal", "progressive rock"],
     "usageCount": 5,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "99f679b0-bca8-4971-b43e-c278908dfe00",
+    "title": "The Dance of Eternity",
+    "artist": "Dream Theater",
+    "album": "Metropolis Pt. 2: Scenes from a Memory",
+    "genres": ["progressive metal", "progressive rock"],
+    "usageCount": 2,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "360fce05-26a4-4816-aa6e-1faaeeed8928",
+    "title": "Midnight Train to Georgia",
+    "artist": "Gladys Knight & The Pips",
+    "album": "Imagination",
+    "genres": ["soul", "r&b"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "8c4b497d-781d-4d05-a97c-80da46a30c4c",
+    "title": "Change is Gonna Come",
+    "artist": "Sam Cooke",
+    "album": "Ain't That Good News",
+    "genres": ["soul", "r&b"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "ff232071-127c-45fe-b064-919138b35eb0",
+    "title": "What's Going On",
+    "artist": "Marvin Gaye",
+    "album": "What's Going On",
+    "genres": ["soul", "r&b"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "2934af8d-9551-4a8c-bacf-7793e5b194b6",
+    "title": "I Heard It Through the Grapevine",
+    "artist": "Marvin Gaye",
+    "album": "In the Groove",
+    "genres": ["soul", "r&b"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "b088c2a5-5a68-4398-be8e-772e0769039e",
+    "title": "Forgot About Dre",
+    "artist": "Dr. Dre",
+    "album": "2001",
+    "genres": ["rap", "hip-hop"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "b661847a-bd75-4bd3-8e32-f19a97000959",
+    "title": "Ain't nothin but a g thing",
+    "artist": "Dr. Dre",
+    "album": "The Chronic",
+    "genres": ["rap", "hip-hop"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "3c22c953-0a1c-4b6c-b813-706836acace9",
+    "title": "california love",
+    "artist": "2pac",
+    "album": "All Eyez on Me",
+    "genres": ["rap", "hip-hop"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "82a6b87c-9cbe-4897-a63a-19fae7011fa8",
+    "title": "Long Time",
+    "artist": "Boston",
+    "album": "Boston",
+    "genres": ["rock", "classic rock"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "04f1fa81-df03-4065-9d0c-612fb58e3609",
+    "title": "Hysteria",
+    "artist": "Muse",
+    "album": "Absolution",
+    "genres": ["rock", "alternative"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "38908f5b-4abe-431d-abbb-7ddbaecb42cf",
+    "title": "Everything in its Right Place",
+    "artist": "Radiohead",
+    "album": "Kid A",
+    "genres": ["rock", "alternative"],
+    "usageCount": 1,
+    "lastUsed": null
+  },
+
+  {
+    "songId": "227ce344-af31-4a98-95a4-a72cbf276270",
+    "title": "Race With Devil On Spanish Highway",
+    "artist": "Al Di Meola",
+    "album": "Elegant Gypsy",
+    "genres": ["jazz", "fusion"],
+    "usageCount": 1,
     "lastUsed": null
   }
 ]

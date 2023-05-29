@@ -1,5 +1,6 @@
 package rcc.BandManager.Service;
 
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import rcc.BandManager.Model.Song;
@@ -32,5 +33,17 @@ public class SongService {
 
     public Optional<List<Song>> findSongByGenres(String genres) {
         return songRepository.findSongByGenres(genres);
+    }
+
+    public Song addSong(Song song) {
+        return songRepository.save(song);
+    }
+
+    public Optional<Song> findSongById(ObjectId id) {
+        return songRepository.findSongById(id);
+    }
+
+    public Optional<Song> findSongBySongId(String songId) {
+        return songRepository.findSongBySongId(songId);
     }
 }
