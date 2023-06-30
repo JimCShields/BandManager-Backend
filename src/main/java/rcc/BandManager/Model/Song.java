@@ -7,6 +7,7 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Date;
 import java.util.UUID;
@@ -22,7 +23,7 @@ public class Song {
     private String title;
     private String artist;
     private String album;
-    private List<String> genres;
+    private ArrayList<String> genres;
     private int usageCount;
     private Date lastUsed;
 

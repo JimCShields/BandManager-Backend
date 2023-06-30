@@ -8,6 +8,7 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -21,5 +22,5 @@ public class Setlist {
     private ObjectId id;
     private String setlistId = UUID.randomUUID().toString();
     private String setlistName;
-    private List<Song> songs;
+    private ArrayList<Song> songs;
 }

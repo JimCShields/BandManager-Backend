@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import rcc.BandManager.Model.Song;
 import rcc.BandManager.Repository.SongRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -23,15 +24,15 @@ public class SongService {
         return songRepository.findSongByTitle(title);
     }
 
-    public Optional<List<Song>> findSongByArtist(String artist) {
+    public Optional<ArrayList<Song>> findSongByArtist(String artist) {
         return songRepository.findSongByArtist(artist);
     }
 
-    public Optional<List<Song>> findSongByAlbum(String album) {
+    public Optional<ArrayList<Song>> findSongByAlbum(String album) {
         return songRepository.findSongByAlbum(album);
     }
 
-    public Optional<List<Song>> findSongByGenres(String genres) {
+    public Optional<ArrayList<Song>> findSongByGenres(String genres) {
         return songRepository.findSongByGenres(genres);
     }
 

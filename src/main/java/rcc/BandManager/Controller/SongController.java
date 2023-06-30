@@ -9,6 +9,7 @@ import rcc.BandManager.Model.Song;
 import rcc.BandManager.Service.SongService;
 import rcc.BandManager.Repository.SongRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -34,18 +35,18 @@ public class SongController {
     }
 
     @GetMapping("/artist/{artist}")
-    public ResponseEntity<Optional<List<Song>>> getSongByArtist(@PathVariable String artist) {
-        return new ResponseEntity<Optional<List<Song>>>(songService.findSongByArtist(artist), HttpStatus.OK);
+    public ResponseEntity<Optional<ArrayList<Song>>> getSongByArtist(@PathVariable String artist) {
+        return new ResponseEntity<Optional<ArrayList<Song>>>(songService.findSongByArtist(artist), HttpStatus.OK);
     }
 
     @GetMapping("/album/{album}")
-    public ResponseEntity<Optional<List<Song>>> getSongByAlbum(@PathVariable String album) {
-        return new ResponseEntity<Optional<List<Song>>>(songService.findSongByAlbum(album), HttpStatus.OK);
+    public ResponseEntity<Optional<ArrayList<Song>>> getSongByAlbum(@PathVariable String album) {
+        return new ResponseEntity<Optional<ArrayList<Song>>>(songService.findSongByAlbum(album), HttpStatus.OK);
     }
 
     @GetMapping("/genres/{genres}")
-    public ResponseEntity<Optional<List<Song>>> getSongByGenres(@PathVariable String genres) {
-        return new ResponseEntity<Optional<List<Song>>>(songService.findSongByGenres(genres), HttpStatus.OK);
+    public ResponseEntity<Optional<ArrayList<Song>>> getSongByGenres(@PathVariable String genres) {
+        return new ResponseEntity<Optional<ArrayList<Song>>>(songService.findSongByGenres(genres), HttpStatus.OK);
     }
 
     @GetMapping("/{songId}")
