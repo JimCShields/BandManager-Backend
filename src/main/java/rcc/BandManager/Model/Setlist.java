@@ -1,6 +1,5 @@
 package rcc.BandManager.Model;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -22,5 +21,5 @@ public class Setlist {
     private ObjectId id;
     private String setlistId = UUID.randomUUID().toString();
     private String setlistName;
-    private ArrayList<Song> songs;
+    private ArrayList<String> songs;
 }

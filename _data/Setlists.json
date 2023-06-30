@@ -1,0 +1,21 @@
+[
+  {
+    "setlistId": "081d7616-2a71-47a7-b575-6779a9bec624",
+    "setlistName": "Test 01",
+    "songs": ["a9726a62-856f-46ad-ac6a-6e629fa029ab",
+              "856cf749-3b37-42d2-a588-57b74d6f02ff",
+              "360fce05-26a4-4816-aa6e-1faaeeed8928",
+              "8c4b497d-781d-4d05-a97c-80da46a30c4c"]
+  },
+
+  {
+    "setlistId": "2a44d28a-dd22-48ca-b58f-f47ffb8ecd32",
+    "setlistName": "Dream Theater",
+    "songs": ["5f17fa7f-6d44-458f-92ba-c648f10f1add",
+              "0776e1df-2859-4f82-86eb-ba1b62ab4c2e",
+              "99f679b0-bca8-4971-b43e-c278908dfe00",
+              "227ce344-af31-4a98-95a4-a72cbf276270"
+            ]
+  }
+
+]

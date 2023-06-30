@@ -8,6 +8,7 @@ import rcc.BandManager.Model.Setlist;
 import rcc.BandManager.Service.SetlistService;
 
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Optional;
 
 @RestController
@@ -16,7 +17,6 @@ public class SetlistController {
 
     @Autowired
     private SetlistService setlistService;
-
     @GetMapping
     public ResponseEntity<List<Setlist>> getAllSetlists() {
         return new ResponseEntity<List<Setlist>>(setlistService.findAllSetlists(), HttpStatus.OK);

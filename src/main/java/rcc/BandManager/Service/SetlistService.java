@@ -1,10 +1,12 @@
 package rcc.BandManager.Service;
 
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import rcc.BandManager.Model.Setlist;
 import rcc.BandManager.Repository.SetlistRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
